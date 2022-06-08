@@ -13,6 +13,10 @@ import javax.persistence.*;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ProfileDTO {
 
+    
+    
+    
+    
     private Integer id;
     private String name;
     private String surname;
