@@ -1,0 +1,33 @@
+POST http://localhost:8080/profile
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ2MTMxOTEsImV4cCI6MTY1NDYxNjc5MSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.7GvvK5Ubi9fd6-Tr528pjTiblpTsYwjT5e23Ld_gUGM
+
+{
+  "name": "name",
+  "surname": "surname",
+  "login": "login",
+  "password": "password",
+  "phone": "123432"
+}
+
+###
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+
+  "name": "name1",
+  "surname": "surname1",
+  "login": "login1",
+  "password": "password1",
+  "phone": "123432"
+}
+
+###
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "login": "login",
+  "password": "password"
+}

@@ -1,0 +1,9 @@
+POST http://localhost:8080/subject
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ2MTMxOTEsImV4cCI6MTY1NDYxNjc5MSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.7GvvK5Ubi9fd6-Tr528pjTiblpTsYwjT5e23Ld_gUGM
+
+{
+  "name": "sub4",
+  "duration": 12,
+  "price": 1200000
+}
