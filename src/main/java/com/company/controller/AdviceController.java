@@ -18,6 +18,10 @@ public class AdviceController {
     }
 
     @ExceptionHandler({NoPermissionException.class})
+
+
+
+
     public ResponseEntity<String> handler(NoPermissionException e) {
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
     }
